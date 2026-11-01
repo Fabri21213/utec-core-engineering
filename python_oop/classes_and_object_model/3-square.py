@@ -1,12 +1,15 @@
 #!/usr/bin/env python3
-"""Definición de una clase Square con validación y cálculo de área."""
+"""Module 3-square.
+
+Defines a Square class with validation and area.
+"""
 
 
 class Square:
-    """Una clase Square que representa un cuadrado con método para calcular el área."""
+    """Represents a square."""
 
     def __init__(self, size=0):
-        """Inicializa un cuadrado validando el tipo y valor de size."""
+        """Initializes the square with size validation."""
         if type(size) is not int:
             raise TypeError("size must be an integer")
         if size < 0:
@@ -14,5 +17,5 @@ class Square:
         self.__size = size
 
     def area(self):
-        """Calcula y devuelve el área actual del cuadrado."""
+        """Returns the current square area."""
         return self.__size ** 2
