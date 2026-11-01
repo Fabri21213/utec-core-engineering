@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
-"""
-Módulo 0-square
-Define una clase Square que representa un cuadrado.
+"""Module 0-square.
+
+Defines an empty Square class.
 """
 
+
 class Square:
-    """Una clase vacía que define un cuadrado."""
+    """Represents an empty square."""
     pass
